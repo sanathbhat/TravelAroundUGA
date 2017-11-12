@@ -1,0 +1,14 @@
+DB Setup:
+Open the DDLandDataDump.sql file on MySql server and execute the .sql file.
+
+Two ways of running application:
+1. You can deploy the war file (located inside the folder Project_folder\dist) on Glassfish server.
+2. Open the Project in Netbeans IDE,
+	include necessary jar files
+	(gson-2.2.2.jar,  jgraph.jar, jgrapgt-0.8.3.jar, mysql-connector-java-5.1.23-bin.jar),
+	Make connection with database on MySQL server,
+	Set the connection properties(URL, USERNAME and PASSWORD) in Util.java file under Util package,
+	Build the Project,
+	Execute the Project.
+
+
